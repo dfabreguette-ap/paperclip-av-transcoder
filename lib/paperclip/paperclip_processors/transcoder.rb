@@ -1,4 +1,4 @@
-module Paperclip
+module Mongoid::Paperclip
   class Transcoder < Processor
     attr_accessor :geometry, :format, :whiny, :convert_options
     # Creates a Video object set to work on the +file+ given. It
